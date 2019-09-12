@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AnticheatInstance.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationEntry.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="APIHooker.cpp">
+      <Filter>Source\API Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="HookedAPIForward.cpp">
+      <Filter>Source\API Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkFilter.cpp">
+      <Filter>Source\Network Filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnticheatInstance.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MINT.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAPIDefines.h">
+      <Filter>Headers\API Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="APIHooker.h">
+      <Filter>Headers\API Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkFilter.h">
+      <Filter>Headers\Network Filter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{83f1becb-eb0f-428b-8e60-7396f8307a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\API Hook">
+      <UniqueIdentifier>{bd32e2ff-d1c1-49e9-930e-b2f80afd8b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Network Filter">
+      <UniqueIdentifier>{df7ba360-1516-4ea7-8d9e-3586b485f5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b2437da0-ad4b-4ad7-a581-32aad0410e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\API Hook">
+      <UniqueIdentifier>{ccd9bdac-15ee-49db-b296-3abc3d402b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Network Filter">
+      <UniqueIdentifier>{22dc9a6f-2af4-4487-bb0a-096ee69c6083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
