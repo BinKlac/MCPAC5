@@ -1,0 +1,3 @@
+[submodule "Minecraft Packet Lib/MCPBase"]
+	path = Minecraft Packet Lib/MCPBase
+	url = https://github.com/electromatter/mcp_base
